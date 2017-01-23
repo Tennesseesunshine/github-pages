@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>github pages上搭建自己静态页面</title>
+	<link rel="stylesheet" href="index.css">
+	<script src="jquery.js"></script>
+	<script src="index.js"></script>
+</head>
+<body>
+<div class="main ma">
+	<div id="to_top"><canvas id="canvas" width="20px"
+	height="20px"></canvas></div>
+	<h2 class="tc n fw">如何在github pages显示自己制作的页面呢？</h2>
+	<hr>
+	<nav ><ul class="ma">
+		<li class="active before">前言</li>
+		<li class="ostep">第一步</li>
+		<li class="sstep">第二步</li>
+		<li class="tstep">第三步</li>
+		<li class="4thstep">第四步</li>
+		<li class="5thstep">第五步</li>
+		<li class="6thstep">第六步</li>
+		<li class="7thstep">第七步</li>
+		</ul>
+	</nav>
+	<div class="step ma">
+		<article>
+			<div class="tips"><p>网上基本90%都是搭建一个独立的博客，但是对于小白来说，github pages这种东西还蛮受用，而且还更可以把自己的代码托管到github，感觉很方便。</p><p>所以自己也一步一步摸索，搭建了静态页面，并且成功显示。想把这个过程记录下来或者分享给更多人。让大家都受益。所说的这些都是在已经创建了github账户并且有了SSH密钥的基础上。</p>
+			</div>
+			<div class="step1"><h3>第一步：创建一个新的仓库</h3><p>点击头像旁边的加号，然后点击“new repository”，出现下图，一次按照步骤“1,2,3..”操作。<img src="images/1.png" alt="步骤一"></p></div>
+			<div class="step2"><h3>第二步：创建一个github pages分支即“gh-pages”</h3><p>因为根据第一步创建完成之后，会有一个默认的master分支，并且后续的显示操作都在“gh-pages”，所以得先创建一个。按照图中序号依次点击操作。<img src="images/2.png" alt="步骤二"></p></div>
+			<div class="step3"><h3>第三步：在桌面上建好自己已经写好的代码</h3><p>把自己写好的html页面，css样式以及js都放在一个新建的跟刚才建仓库名称一样的目录中。<img src="images/3.png" alt="步骤三"></p></div>
+			<div class="step4"><h3>第四步：打开github客户端</h3><p>当然因为github下载太慢，这里有一个离线包，<a href="http://download.csdn.Net/download/lyg468088/8723039" target="_blank">http://download.csdn.Net/download/lyg468088/8723039</a>进行下载并安装。解压之后运行github.exe，然后登陆自己的github账号，登陆之后点击左上角加号选择clone，然后选择自己账户下面自己之前创建的那个仓库，之后点击最下面的clone。记下来会弹窗出现选择要克隆的文件，然后选择刚刚自己代码的路径即可。<img src="images/4.png" alt="步骤四"><img src="images/5.png" alt="步骤四"></p></div>
+			<div class="step5"><h3>第五步：返回github客户端</h3><p>返回github客户端,点击页面上的"master"，切换到"gh-pages"分支<img src="images/6.png" alt=""><br>点击完成后，返回到自己的代码中，会出现这样的情况，然后将自己代码全部选中，拖进刚刚生成的文件夹中<img src="images/7.png" alt=""><br>出现如下效果<br><img src="images/8.png" alt=""></p></div>
+			<div class="step6"><h3>第六步：上传</h3><p>返回到客户端，这时候会发现右侧有了变化，然后按照步骤点击操作。<img src="images/9.png" alt=""><br>点击完稍等片刻，点击右上角"sync"，进行网页版同步。然后登陆网页版github，找到刚刚建的仓库，点击进入，将分支切换成为"gh-pages",就可以看到自己上传的代码。<img src="images/10.png" alt=""></p></div>
+			<div class="step7"><h3>第七步：浏览</h3><p>那么怎么浏览写出来的页面呢？找到仓库中的"settings"<img src="images/11.png" alt="">进来之后往下拖，找到"github pages"，然后点击网址即可。<img src="images/12.png" alt=""><br>然后会出现对应的页面<img src="images/13.png" alt=""></p><p>如此，所有的步骤都完结了。终于可以通过网址来访问自己写的页面了。希望和我一样的初入江湖的小白都能早日摆脱"菜鸟"称号，成为真正意义上的大神。</p></div>
+			
+		</article>
+
+	</div>
+	
+	
+</div>
+	
+</body>
+</html>
