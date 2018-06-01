@@ -1,2 +1,2 @@
-# github-pages-course
+# github-pages
 https://tennesseesunshine.github.io/github-pages-course/
